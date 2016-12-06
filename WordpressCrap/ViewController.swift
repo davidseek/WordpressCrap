@@ -20,7 +20,7 @@ class ViewController: WPEditorViewController {
 extension ViewController: WPEditorViewControllerDelegate {
     
     func editorDidBeginEditing(_ editorController: WPEditorViewController!) {
-        print("editorDidBeginEditing")
+        //
     }
     
     func editorDidEndEditing(_ editorController: WPEditorViewController!) {
@@ -45,6 +45,7 @@ extension ViewController: WPEditorViewControllerDelegate {
     }
     
     func editorDidPressMedia(_ editorController: WPEditorViewController!) {
+        showImagePicker()
         print("editorDidPressMedia")
     }
     
@@ -53,4 +54,11 @@ extension ViewController: WPEditorViewControllerDelegate {
 
 extension ViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
+    func showImagePicker() {
+        // image picker func here
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        // handle image here
+    }
 }
