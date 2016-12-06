@@ -1,0 +1,28 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - NSObject-SafeExpectations (0.0.2)
+  - WordPress-iOS-Editor (1.8.1):
+    - CocoaLumberjack (~> 2.2.0)
+    - NSObject-SafeExpectations (~> 0.0.2)
+    - WordPressCom-Analytics-iOS (~> 0.1.0)
+  - WordPressCom-Analytics-iOS (0.1.21)
+
+DEPENDENCIES:
+  - WordPress-iOS-Editor
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  NSObject-SafeExpectations: 7d7f48df90df4e11da7cfe86b64f45eff7a7f521
+  WordPress-iOS-Editor: 3118f5d6b142b6bf322f3393a7dd98a28bca68cb
+  WordPressCom-Analytics-iOS: ee6cc3a4feb63cebba167ce762c6e12c0b7b6671
+
+PODFILE CHECKSUM: 894a30d3db330983e82fc59c6304c360859e41ae
+
+COCOAPODS: 1.1.0.rc.2
