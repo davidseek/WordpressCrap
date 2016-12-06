@@ -34,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>CYA would like to use camera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App would like to store a photo.</string>
 </dict>
 </plist>

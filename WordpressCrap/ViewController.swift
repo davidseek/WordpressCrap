@@ -13,13 +13,14 @@ class ViewController: WPEditorViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.delegate = self
     }
 }
 
 extension ViewController: WPEditorViewControllerDelegate {
     
     func editorDidBeginEditing(_ editorController: WPEditorViewController!) {
-        //
+        print("editorDidBeginEditing")
     }
     
     func editorDidEndEditing(_ editorController: WPEditorViewController!) {
@@ -44,6 +45,12 @@ extension ViewController: WPEditorViewControllerDelegate {
     }
     
     func editorDidPressMedia(_ editorController: WPEditorViewController!) {
-        //
+        print("editorDidPressMedia")
     }
+    
+    
+}
+
+extension ViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    
 }
